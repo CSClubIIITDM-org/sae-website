@@ -121,7 +121,7 @@ button {
 }
 
 *::selection {
-  background-color: hsla(var(--app-color-dark-hsl), 0.4);
+  background-color: hsla(var(--app-color-primary-hsl), 0.4);
   /* color: var(--app-color-primary-contrast); */
 
   border-radius: 0.3rem;

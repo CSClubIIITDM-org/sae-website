@@ -1,0 +1,1 @@
+{@html `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 104 14" width="208" height="28"><path stroke="var(--app-color-primary)" stroke-width="4" d="M2 7C8.667.333 15.333.333 22 7s13.333 6.667 20 0S55.333.333 62 7s13.333 6.667 20 0S95.333.333 102 7"/></svg>`}

@@ -1,11 +1,28 @@
+<script>
+  import HomeBanner from '$lib/HomeBanner.svelte';
+  import Hr from '$lib/Hr.svelte';
+</script>
+
 <main>
-  <section class="banner">
-    <div class="tagline">
-      <h1>SAE Club</h1>
-    </div>
-    <div class="hero-image">
-      <img src="/assets/hero.svg" alt="SAE WaterMark" />
-    </div>
+  <HomeBanner />
+
+  <div class="divider">
+    <Hr />
+  </div>
+
+  <section class="stats">
+    <section class="counter">
+      <h3>50+</h3>
+      <p>students</p>
+    </section>
+    <section class="counter">
+      <h3>5+</h3>
+      <p>specializations</p>
+    </section>
+    <section class="counter">
+      <h3>1</h3>
+      <p>goal</p>
+    </section>
   </section>
 </main>
 
@@ -13,24 +30,44 @@
   main {
     width: 100%;
 
+    padding-top: 8rem;
+
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .banner {
+  .divider {
+    margin: 2rem;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+
+    margin: 2rem;
+
     width: 80%;
 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    .counter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-    .tagline {
-      h1 {
-        font-size: 5rem;
+      h3 {
+        font-size: 8rem;
+        font-weight: 300;
+        line-height: 1.1;
+
+        color: var(--app-color-primary);
       }
-    }
 
-    .hero-image img {
-      max-width: 100%;
+      p {
+        font-size: 1.618rem;
+
+        text-transform: uppercase;
+      }
     }
   }
 </style>
