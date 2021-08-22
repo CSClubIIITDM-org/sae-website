@@ -1,6 +1,7 @@
 <script>
   import HomeBanner from '$lib/HomeBanner.svelte';
   import Hr from '$lib/Hr.svelte';
+  import Team from '$lib/Team.svelte';
 </script>
 
 <main>
@@ -32,11 +33,15 @@
       nulla distinctio laborum veritatis consequatur?
     </p>
   </section>
-  <section class="about-us" />
 
   <div class="m-8">
     <Hr />
   </div>
+
+  <section class="team">
+    <h2>TEAM</h2>
+    <Team />
+  </section>
 </main>
 
 <style lang="scss" windi:global>
@@ -45,10 +50,6 @@
   }
 
   .stats-section {
-    @apply w-4/5 mb-8;
-  }
-
-  .about-us {
     @apply w-4/5 mb-8;
   }
 
@@ -70,5 +71,9 @@
     p {
       @apply uppercase text-3xl;
     }
+  }
+
+  .team {
+    @apply w-4/5 mb-8;
   }
 </style>

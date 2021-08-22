@@ -25,8 +25,8 @@
     }
 
     h2 {
+      @apply text-[1.618rem];
       color: hsla(var(--app-color-dark-hsl), 0.7);
-      font-size: 1.618rem;
     }
   }
 
@@ -35,9 +35,8 @@
   }
 
   button {
-    @apply py-0.7rem px-1rem mt-3rem w-max rounded-1xl;
+    @apply py-0.5rem px-1rem mt-3rem w-max rounded-1xl text-[1.618rem] leading-relaxed;
 
-    font-size: 1.618rem;
     color: var(--app-color-primary-contrast);
 
     background-image: var(--app-gradient-primary);
