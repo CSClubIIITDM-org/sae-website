@@ -11,51 +11,38 @@
 
 <style lang="scss">
   .banner {
-    width: 80%;
-
-    margin: 2rem;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    @apply w-4/5 m-8 grid grid-cols-2;
   }
 
   .tagline {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    height: 100%;
+    @apply flex justify-center flex-col h-1/1;
 
     h1 {
+      @apply h-max;
+
       font-size: 6rem;
       line-height: 1.1;
-
-      height: max-content;
     }
 
     h2 {
       color: hsla(var(--app-color-dark-hsl), 0.7);
+      font-size: 1.618rem;
     }
   }
 
   .hero-image img {
-    max-width: 90%;
+    @apply max-w-9/10;
   }
 
   button {
+    @apply py-0.7rem px-1rem mt-3rem w-max rounded-1xl;
+
     font-size: 1.618rem;
     color: var(--app-color-primary-contrast);
 
-    padding: 0.7rem 1rem;
-    margin: 3rem 0 0 0;
-
-    width: max-content;
-
-    background-image: linear-gradient(112.7deg, #fa983d 11.4%, #f5853c 70.2%);
+    background-image: var(--app-gradient-primary);
 
     transition: box-shadow 150ms ease-in;
-
-    border-radius: 0.5rem;
 
     &:hover,
     &:focus-visible {

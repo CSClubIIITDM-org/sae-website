@@ -6,7 +6,7 @@
 <main>
   <HomeBanner />
 
-  <div class="divider">
+  <div class="m-8">
     <Hr />
   </div>
 
@@ -26,48 +26,24 @@
   </section>
 </main>
 
-<style lang="scss">
+<style>
   main {
-    width: 100%;
-
-    padding-top: 8rem;
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .divider {
-    margin: 2rem;
+    @apply w-1/1 pt-32 flex items-center flex-col;
   }
 
   .stats {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    @apply grid grid-cols-3 justify-center m-8 w-4/5;
+  }
 
-    margin: 2rem;
+  .counter {
+    @apply flex flex-col items-center;
+  }
 
-    width: 80%;
+  h3 {
+    @apply text-9xl font-300 leading-[1.1] text-$app-color-primary;
+  }
 
-    .counter {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      h3 {
-        font-size: 8rem;
-        font-weight: 300;
-        line-height: 1.1;
-
-        color: var(--app-color-primary);
-      }
-
-      p {
-        font-size: 1.618rem;
-
-        text-transform: uppercase;
-      }
-    }
+  p {
+    @apply uppercase text-3xl;
   }
 </style>
