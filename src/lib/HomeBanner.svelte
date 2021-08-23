@@ -1,6 +1,6 @@
 <section class="banner">
   <div class="tagline">
-    <h1>SAE Club</h1>
+    <h1>Inferno Dragsters</h1>
     <h2>Be limitless to follow your passion</h2>
     <button>About us</button>
   </div>
