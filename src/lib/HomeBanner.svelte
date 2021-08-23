@@ -5,7 +5,7 @@
     <button>About us</button>
   </div>
   <div class="hero-image">
-    <img src="/assets/hero.svg" alt="SAE WaterMark" />
+    <img src="/assets/watermark.webp" alt="SAE WaterMark" />
   </div>
 </section>
 
