@@ -1,4 +1,5 @@
 <script>
+  import Footer from '$lib/Footer.svelte';
   import HomeBanner from '$lib/HomeBanner.svelte';
   import Hr from '$lib/Hr.svelte';
   import Team from '$lib/Team.svelte';
@@ -42,6 +43,8 @@
     <h2>TEAM</h2>
     <Team />
   </section>
+
+  <Footer />
 </main>
 
 <style lang="scss" windi:global>

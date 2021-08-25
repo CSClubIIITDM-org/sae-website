@@ -18,10 +18,7 @@
     @apply flex justify-center flex-col h-1/1;
 
     h1 {
-      @apply h-max;
-
-      font-size: 6rem;
-      line-height: 1.1;
+      @apply h-max text-[6rem] leading-[1.1];
     }
 
     h2 {
