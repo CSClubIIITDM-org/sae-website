@@ -29,7 +29,6 @@
       <div class="flex flex-col items-center">
         <img src="/placeholder-person.svg" alt="" use:lazy />
         <p class="mt-4">{name}</p>
-        <p>{rollNo}</p>
       </div>
     {/each}
   </div>

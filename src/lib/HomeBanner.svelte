@@ -22,7 +22,7 @@
     }
 
     h2 {
-      @apply text-[1.618rem];
+      @apply text-[1.618rem] leading-relaxed;
       color: hsla(var(--app-color-dark-hsl), 0.7);
     }
   }

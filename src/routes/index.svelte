@@ -2,10 +2,15 @@
   import Footer from '$lib/Footer.svelte';
   import HomeBanner from '$lib/HomeBanner.svelte';
   import Hr from '$lib/Hr.svelte';
+  import Nav from '$lib/Nav.svelte';
+  import Sponsors from '$lib/Sponsors.svelte';
   import Team from '$lib/Team.svelte';
 </script>
 
 <main>
+  <div id="home-link" />
+  <Nav />
+
   <HomeBanner />
 
   <div class="m-8">
@@ -13,7 +18,7 @@
   </div>
 
   <section class="stats-section">
-    <h2>{`{SOMETHING}`}</h2>
+    <h2 id="about-us">About Us</h2>
     <section class="stats">
       <section class="counter">
         <h3>50+</h3>
@@ -29,10 +34,15 @@
       </section>
     </section>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid magni officiis quod quam
-      ratione iusto amet repudiandae at fuga voluptatem provident, odio nostrum dolorum, asperiores
-      nulla distinctio laborum veritatis consequatur?
+      Inferno Dragsters is a team of 25+ students spread across the different disciplines with
+      individual specializations and share a common interest in the field of automobiles. Working at
+      IIITDM Kancheepuram, Inferno Dragsters aims to challenge its competitors and bring glory to
+      our alma-mater. With a fair blend of technical prowess and excellent coordination, the team
+      will leave no stone unturned while conquering the challenges.
     </p>
+    <h3 class="adrenaline-rush-tagline text-[2.23rem] text-center mt-8 text-$app-color-primary">
+      FEEL THE ADRENALINE RUSH
+    </h3>
   </section>
 
   <div class="m-8">
@@ -43,6 +53,16 @@
     <h2>TEAM</h2>
     <Team />
   </section>
+
+  <div class="m-8">
+    <Hr />
+  </div>
+
+  <Sponsors />
+
+  <div class="m-8">
+    <Hr />
+  </div>
 
   <Footer />
 </main>
@@ -59,6 +79,15 @@
   h2 {
     @apply text-[4rem] text-center my-4;
   }
+
+  // @supports (-webkit-background-clip: text) {
+  //   h3.adrenaline-rush-tagline {
+  //     color: transparent;
+  //     background: var(--app-gradient-primary);
+  //     -webkit-background-clip: text;
+  //     -webkit-text-fill-color: transparent;
+  //   }
+  // }
 
   .stats {
     @apply grid grid-cols-3 justify-center my-8 w-1/1;
