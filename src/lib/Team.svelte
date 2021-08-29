@@ -2,41 +2,59 @@
   import { lazy } from './lazy';
 
   const teamList = [
-    { name: 'SENTHIL NIRAI NILAVU P S', rollNo: 'ME20B2004' },
-    { name: 'VISHNUVARDHAN IYENGAR', rollNo: 'ME20B1007' },
-    { name: 'PRASHANT JHA', rollNo: 'MPD19I022' },
+    [{ name: 'SHUBHANKAR', photo: 'shubhankar' }],
+    [
+      { name: 'PRASHANT JHA', photo: 'prashant-jha' },
+      { name: 'S ABAETHAN', photo: 'abaethan' },
+    ],
 
-    { name: 'S ABAETHAN', rollNo: 'MDM19B015' },
-    { name: 'VYSHNAV K', rollNo: 'MFD19I016' },
-    { name: 'PULLIPUDI SRI SAHIL', rollNo: 'ME20B1027' },
+    [
+      { name: 'VYSHNAV K', photo: 'vyshnav-k' },
+      { name: 'VISMAY CHAND', photo: 'vismay-chand' },
+      { name: 'JOSEPH MELVIN KUZHIMATTATHIL', photo: 'joseph' },
+    ],
 
-    { name: 'S MUTHU SHRAVAN', rollNo: 'ME20B1009' },
-    { name: 'KANAKAM SRIRAM', rollNo: 'EC20B1060' },
-    { name: 'ANJAN MAHAPATRA', rollNo: 'ME20B1006' },
+    [
+      { name: 'VISHNUVARDHAN IYENGAR', photo: 'vishnu' },
+      { name: 'S MUTHU SHRAVAN', photo: 'muthu-sharavan' },
+      { name: 'PULLIPUDI SRI SAHIL', photo: 'sahil' },
+      { name: 'SENTHIL NIRAI NILAVU P S', photo: 'nirai' },
+    ],
 
-    { name: 'PRANAV YOGESH R K', rollNo: 'ME20B1023' },
-    { name: 'RISHKIESH KUMAR YADAV', rollNo: 'ME20B2040' },
-    { name: 'PIYUSH KUMAR SINHA', rollNo: 'ME20B1037' },
+    [
+      { name: 'KANAKAM SRIRAM', photo: 'sriram' },
+      { name: 'ANJAN MAHAPATRA', photo: 'anjan' },
+      { name: 'PRANAV YOGESH R K', photo: 'pranav' },
+      { name: 'RISHKIESH KUMAR YADAV', photo: 'rihsikesh' },
+      { name: 'PIYUSH KUMAR SINHA', photo: 'piyus-kumar-sinha' },
+    ],
   ];
 </script>
 
 <section class="members">
-  <div class="row-1">
-    <img src="/placeholder-person.svg" alt="" use:lazy />
-  </div>
-  <div class="row-2">
-    {#each teamList as { name, rollNo }}
-      <div class="flex flex-col items-center">
-        <img src="/placeholder-person.svg" alt="" use:lazy />
-        <p class="mt-4">{name}</p>
-      </div>
-    {/each}
-  </div>
+  {#each teamList as row, index}
+    <div class="row-{index + 1}">
+      {#each row as { name, photo }}
+        <div class="flex flex-col items-center">
+          <img src="/team/opt/{photo}.webp" alt={name} use:lazy />
+          <p class="mt-4">{name}</p>
+        </div>
+      {/each}
+    </div>
+  {/each}
 </section>
 
 <style lang="scss">
   img {
-    @apply h-[10rem];
+    @apply h-[10rem] rounded-[50%];
+  }
+
+  .row-1,
+  .row-2,
+  .row-3,
+  .row-4,
+  .row-5 {
+    @apply my-8;
   }
 
   .row-1 {
@@ -44,6 +62,18 @@
   }
 
   .row-2 {
-    @apply grid grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] place-items-center gap-8;
+    @apply grid grid-cols-[repeat(auto-fit,minmax(20rem,1fr))] place-items-center;
+  }
+
+  .row-3 {
+    @apply grid grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] place-items-center;
+  }
+
+  .row-4 {
+    @apply grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] place-items-center;
+  }
+
+  .row-5 {
+    @apply grid grid-cols-[repeat(auto-fit,minmax(14rem,1fr))] place-items-center;
   }
 </style>
