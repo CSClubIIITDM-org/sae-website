@@ -3,6 +3,7 @@
 
   const teamList = [
     [{ name: 'SHUBHANKAR', photo: 'shubhankar' }],
+
     [
       { name: 'PRASHANT JHA', photo: 'prashant-jha' },
       { name: 'S ABAETHAN', photo: 'abaethan' },
@@ -54,7 +55,7 @@
   .row-3,
   .row-4,
   .row-5 {
-    @apply my-8;
+    @apply my-16 <sm:(gap-8);
   }
 
   .row-1 {

@@ -26,7 +26,7 @@
     <button>Collaborate with us</button>
     <button>CrowdFunding</button>
   </div>
-  <br/>
+  <br />
 </section>
 
 <div class="m-8">
@@ -34,8 +34,8 @@
 </div>
 
 <section class="sponsors-container">
-  <h2>Our Sponsors</h2>
-  <br/>
+  <h2 id="sponsors">Our Sponsors</h2>
+  <br />
 
   <div class="row-2">
     <div class="flex flex-col items-center">
