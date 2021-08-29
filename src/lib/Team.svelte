@@ -11,7 +11,7 @@
     [
       { name: 'VYSHNAV K', photo: 'vyshnav-k' },
       { name: 'VISMAY CHAND', photo: 'vismay-chand' },
-      { name: 'JOSEPH MELVIN KUZHIMATTATHIL', photo: 'joseph' },
+      { name: 'JOSEPH MELVIN KUZHIMATTATHIL', photo: 'Joseph' },
     ],
 
     [
