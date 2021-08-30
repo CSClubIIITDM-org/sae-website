@@ -19,7 +19,7 @@
   }
 
   .logo img {
-    @apply max-w-20;
+    @apply max-w-40;
   }
 
   nav {

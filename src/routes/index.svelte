@@ -21,7 +21,7 @@
     <h2 id="about-us">About Us</h2>
     <section class="stats">
       <section class="counter">
-        <h3>50+</h3>
+        <h3>25+</h3>
         <p>students</p>
       </section>
       <section class="counter">
@@ -79,15 +79,6 @@
   h2 {
     @apply text-[4rem] text-center my-4;
   }
-
-  // @supports (-webkit-background-clip: text) {
-  //   h3.adrenaline-rush-tagline {
-  //     color: transparent;
-  //     background: var(--app-gradient-primary);
-  //     -webkit-background-clip: text;
-  //     -webkit-text-fill-color: transparent;
-  //   }
-  // }
 
   .stats {
     @apply grid grid-cols-3 justify-center my-8 w-1/1;
