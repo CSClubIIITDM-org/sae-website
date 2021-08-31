@@ -39,16 +39,8 @@
 
   <div class="row-2">
     <div class="flex flex-col items-center">
-      <img src="/placeholder-person.svg" alt="" use:lazy />
-      <p class="mt-4">Some name</p>
-    </div>
-    <div class="flex flex-col items-center">
-      <img src="/placeholder-person.svg" alt="" use:lazy />
-      <p class="mt-4">Some name</p>
-    </div>
-    <div class="flex flex-col items-center">
-      <img src="/placeholder-person.svg" alt="" use:lazy />
-      <p class="mt-4">Some name</p>
+      <img src="/sponsors/simscale.png" class="rounded-1xl" alt="" use:lazy />
+      <p class="mt-4">Simscale</p>
     </div>
   </div>
 
