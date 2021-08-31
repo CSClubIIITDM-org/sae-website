@@ -10,12 +10,14 @@
       <a href="/competition" sveltekit:prefetch>COMPETITION</a>
     </div>
   </nav>
-  <div />
+  <div class="inst-logo">
+    <img src="/institute-logo.webp" alt="IIITDMK logo" />
+  </div>
 </header>
 
 <style lang="scss">
   header {
-    @apply grid grid-cols-[auto,1fr,auto] absolute w-[80vw] top-0 left-[10vw] py-4;
+    @apply grid grid-cols-[auto,1fr,auto] gap-4 absolute w-[80vw] top-0 left-[10vw] py-4;
   }
 
   .logo img {
@@ -23,7 +25,11 @@
   }
 
   nav {
-    @apply flex justify-start flex-row-reverse gap-12;
+    @apply flex justify-start items-center flex-row-reverse gap-12;
+  }
+
+  .inst-logo img {
+    @apply max-w-18;
   }
 
   a[href] {
