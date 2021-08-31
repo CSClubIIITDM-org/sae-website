@@ -1,4 +1,6 @@
 <script>
+  import { fadeIn, fadeOut } from '$lib/fade';
+
   import Footer from '$lib/Footer.svelte';
   import HomeBanner from '$lib/HomeBanner.svelte';
   import Hr from '$lib/Hr.svelte';
@@ -7,7 +9,7 @@
   import Team from '$lib/Team.svelte';
 </script>
 
-<main>
+<main in:fadeIn out:fadeOut>
   <div id="home-link" />
   <Nav />
 
@@ -72,12 +74,12 @@
     @apply w-1/1 pt-32 flex items-center flex-col;
   }
 
-  .stats-section {
-    @apply w-4/5 mb-8;
-  }
-
   h2 {
     @apply text-[4rem] text-center my-4;
+  }
+
+  .stats-section {
+    @apply w-4/5 mb-8;
   }
 
   .stats {

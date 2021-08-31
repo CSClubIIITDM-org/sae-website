@@ -4,10 +4,10 @@
   </div>
   <nav>
     <div class="w-max">
-      <a href="#home-link">HOME</a>
-      <a href="#about-us">ABOUT US</a>
-      <a href="#sponsors">SPONSORS</a>
-      <a href="#competition">COMPETITION</a>
+      <a href="/" sveltekit:prefetch>HOME</a>
+      <a href="/#about-us" sveltekit:prefetch>ABOUT US</a>
+      <a href="/#sponsors" sveltekit:prefetch>SPONSORS</a>
+      <a href="/competition" sveltekit:prefetch>COMPETITION</a>
     </div>
   </nav>
   <div />
