@@ -19,11 +19,15 @@
 
     h1 {
       @apply h-max text-[6rem] leading-[1.1];
+
+      font-family: 'Roboto Slab', sans-serif;
     }
 
     h2 {
-      @apply text-[1.618rem] leading-relaxed;
+      @apply text-[2.1rem] leading-relaxed;
+
       color: hsla(var(--app-color-dark-hsl), 0.7);
+      font-family: 'PT Sans Narrow', sans-serif;
     }
   }
 
