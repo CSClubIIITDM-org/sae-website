@@ -1,7 +1,27 @@
 <footer>
   <section class="location-info">
     <div class="address">
-      IIITDM Kancheepuram <br /> Vandalur-Kelambakkam Road, Chennai- 600127.
+      <div>
+        <p>Contact Us:</p>
+
+        <p>VYSHNAV K</p>
+        <p>mfd19i016@iiitdm.ac.in</p>
+        <p>+91 9447138708</p>
+
+        <br />
+
+        <p>Follow us on:</p>
+        <p>
+          <a href="https://instagram.com/inferno_dragsters_iiitdm?utm_medium=copy_link">
+            Instagram
+          </a>
+          <a href="https://www.linkedin.com/company/inferno-dragsters/">Linkedin</a>
+        </p>
+
+        <br />
+
+        <p>Developed by CS Club</p>
+      </div>
     </div>
     <div class="map">
       <a href="https://goo.gl/maps/NZBSQfC8KD9aRJFr5">

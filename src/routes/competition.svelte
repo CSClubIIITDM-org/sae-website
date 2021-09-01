@@ -20,7 +20,7 @@
         <p>teams</p>
       </section>
       <section class="counter">
-        <h3>10000</h3>
+        <h3>10000+</h3>
         <p>students</p>
       </section>
     </section>

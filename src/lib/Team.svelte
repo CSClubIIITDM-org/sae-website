@@ -19,7 +19,7 @@
       { name: 'VISHNUVARDHAN IYENGAR', photo: 'vishnu', role: 'ENGINE+COOLING' },
       { name: 'S MUTHU SHRAVAN', photo: 'muthu-sharavan', role: 'DRIVETRAIN' },
       { name: 'PULLIPUDI SRI SAHIL', photo: 'sahil', role: 'DRIVETRAIN' },
-      { name: 'SENTHIL NIRAI NILAVU P S', photo: 'nirai', role: 'AERODYNAMICS' },
+      { name: 'SENTHIL NIRAI NILAVU P V S', photo: 'nirai', role: 'AERODYNAMICS' },
     ],
 
     [
