@@ -5,7 +5,7 @@
         <p>Contact Us:</p>
 
         <p>VYSHNAV K</p>
-        <p>mpd19i022@iiitdm.ac.in</p>
+        <p>contact@infernodragsters.in</p>
         <p>+91 8102340948</p>
 
         <br />
@@ -19,6 +19,7 @@
           >
             Instagram
           </a>
+          &nbsp;&nbsp;
           <a
             target="_blank"
             rel="noopener"
@@ -26,6 +27,7 @@
           >
             Linkedin
           </a>
+          &nbsp;&nbsp;
           <a
             target="_blank"
             rel="noopener"
