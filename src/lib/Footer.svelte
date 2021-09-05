@@ -5,8 +5,8 @@
         <p>Contact Us:</p>
 
         <p>VYSHNAV K</p>
-        <p>infernodragsters.iiitdm@gmail.com</p>
-        <p>+91 9447138708</p>
+        <p>mpd19i022@iiitdm.ac.in</p>
+        <p>+91 8102340948</p>
 
         <br />
 
