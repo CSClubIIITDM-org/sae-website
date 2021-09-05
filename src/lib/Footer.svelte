@@ -52,6 +52,9 @@
         <br />
 
         <p>Developed by CS Club</p>
+
+        <br />
+        <br />
       </div>
     </div>
     <div class="map">
