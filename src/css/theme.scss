@@ -1,19 +1,23 @@
 body {
-  --app-main-font-family: 'Noto Sans', monospace;
-  --app-heading-font-family: 'Noto Sans HK', monospace;
+  --app-main-font-family: 'Roboto', sans-serif;
+  --app-heading-font-family: 'Josefin Sans', sans-serif;
 
-  --app-color-shell: #18181b;
+  --app-color-shell: hsl(207, 95%, 8%);
 
-  --app-color-light: hsl(240, 6%, 10%);
-  --app-color-light-hsl: 240, 6%, 10%;
+  --app-color-light: hsl(207, 95%, 8%);
+  --app-color-light-hsl: 207, 95%, 8%;
   --app-color-light-contrast: white;
 
   --app-color-dark: hsl(0, 0%, 100%);
   --app-color-dark-hsl: 0, 0%, 100%;
-  --app-color-dark-contrast: hsl(240, 6%, 10%);
+  --app-color-dark-contrast: #011627;
 
-  --app-color-primary: #f5853c;
-  --app-color-primary-hsl: 24, 90%, 60%;
-  --app-color-primary-contrast: hsl(240, 6%, 10%);
-  --app-gradient-primary: linear-gradient(112.7deg, #fa983d 11.4%, #f5853c 70.2%);
+  --app-color-primary: hsl(356, 75%, 56%);
+  --app-color-primary-hsl: 356, 75%, 56%;
+  --app-color-primary-contrast: hsl(207, 95%, 8%);
+  --app-gradient-primary: linear-gradient(
+    112.7deg,
+    hsl(356, 75%, 56%) 11.4%,
+    hsl(356, 75%, 56%) 70.2%
+  );
 }

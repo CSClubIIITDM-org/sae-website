@@ -5,13 +5,13 @@
   <nav>
     <div class="w-max">
       <a href="/" sveltekit:prefetch>HOME</a>
-      <a href="/#about-us" sveltekit:prefetch>ABOUT US</a>
+      <a href="/#team" sveltekit:prefetch>TEAM</a>
       <a href="/#sponsors" sveltekit:prefetch>SPONSORS</a>
       <a href="/competition" sveltekit:prefetch>COMPETITION</a>
     </div>
   </nav>
   <div class="inst-logo">
-    <img src="/institute-logo.webp" alt="IIITDMK logo" />
+    <!-- <img src="/institute-logo.webp" alt="IIITDMK logo" /> -->
   </div>
 </header>
 
@@ -21,16 +21,16 @@
   }
 
   .logo img {
-    @apply max-w-40;
+    @apply max-w-20;
   }
 
   nav {
     @apply flex justify-start items-center flex-row-reverse gap-12;
   }
 
-  .inst-logo img {
-    @apply max-w-18;
-  }
+  // .inst-logo img {
+  //   @apply max-w-18;
+  // }
 
   a[href] {
     --distance: calc(50% - 0.375rem);

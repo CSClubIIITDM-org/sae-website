@@ -52,7 +52,7 @@
   </div>
 
   <section class="team">
-    <h2>TEAM</h2>
+    <h2 id="team">TEAM</h2>
     <Team />
   </section>
 
