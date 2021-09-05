@@ -2,15 +2,27 @@
   <section class="location-info">
     <div class="address">
       <div>
-        <p>Contact Us:</p>
-
-        <p>VYSHNAV K</p>
-        <p>contact@infernodragsters.in</p>
-        <p>+91 8102340948</p>
+        <p>Inferno Dragsters,</p>
+        <p>IIITDM Kancheepuram Campus, Chennai, TamilNadu-600127</p>
+        <p>www.infernodragsters.in</p>
 
         <br />
 
-        <p>Follow us on:</p>
+        <p>Prashant Jha</p>
+        <p>Team Lead</p>
+        <p>Mob No: 8102340948</p>
+        <p>Email: mpd19i022@iiitdm.ac.in</p>
+
+        <br />
+
+        <p>Vyshnav K</p>
+        <p>Bussiness and Marketing Head</p>
+        <p>Mob No: 9447138708</p>
+        <p>Email: mfd19i016@iiitdm.ac.in</p>
+
+        <br />
+
+        <p>Team MailID: contact@infernodragster.in</p>
         <p>
           <a
             target="_blank"
