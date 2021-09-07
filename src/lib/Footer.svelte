@@ -22,7 +22,7 @@
 
         <br />
 
-        <p>Team MailID: contact@infernodragster.in</p>
+        <p>Team MailID: contact@infernodragsters.in</p>
         <p>
           <a
             target="_blank"
