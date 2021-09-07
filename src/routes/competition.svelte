@@ -2,7 +2,7 @@
   import { fadeIn, fadeOut } from '$lib/fade';
 </script>
 
-<main in:fadeIn out:fadeOut class="w-1/1 pt-32 flex items-center flex-col">
+<main in:fadeIn out:fadeOut class="w-4/5 <md:w-[95%] pt-32 flex items-center flex-col">
   <h2>Competition</h2>
 
   <section class="stats-section">
