@@ -105,7 +105,7 @@
   }
 
   .images {
-    @apply w-4/5 mb-8 grid grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] place-items-center <md:(gap-8);
+    @apply w-1/1 mb-8 grid grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] place-items-center <md:(gap-8);
 
     img {
       @apply h-14rem rounded-1xl;
