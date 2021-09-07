@@ -28,11 +28,7 @@
     @apply flex justify-start items-center flex-row-reverse gap-12;
   }
 
-  // .inst-logo img {
-  //   @apply max-w-18;
-  // }
-
-  a[href] {
+  a {
     @apply text-[1.3rem] <lg:(text-[1rem]);
 
     --distance: calc(50% - 0.375rem);
