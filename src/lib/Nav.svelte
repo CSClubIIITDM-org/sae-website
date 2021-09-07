@@ -17,11 +17,11 @@
 
 <style lang="scss">
   header {
-    @apply grid grid-cols-[auto,1fr,auto] gap-4 absolute w-[80vw] top-0 left-[10vw] py-4;
+    @apply grid grid-cols-[auto,1fr,auto] gap-4 absolute w-[80vw] top-0 left-[10vw] py-4 <lg:(w-[95w] left-[2.5vw]);
   }
 
   .logo img {
-    @apply max-w-20;
+    @apply max-w-20 <lg:max-w-10;
   }
 
   nav {
@@ -33,6 +33,8 @@
   // }
 
   a[href] {
+    @apply text-[1.3rem] <lg:(text-[1rem]);
+
     --distance: calc(50% - 0.375rem);
     --opacity: 0.35;
     --duration: 150ms;

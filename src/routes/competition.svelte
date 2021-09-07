@@ -1,10 +1,6 @@
 <script>
   import { fadeIn, fadeOut } from '$lib/fade';
-  import Footer from '$lib/Footer.svelte';
-  import Nav from '$lib/Nav.svelte';
 </script>
-
-<Nav />
 
 <main in:fadeIn out:fadeOut class="w-1/1 pt-32 flex items-center flex-col">
   <h2>Competition</h2>
@@ -69,8 +65,6 @@
     <img src="/competition/dynamic-events.png" alt="Dynamic Events pie chart" />
     <img src="/competition/total-points.png" alt="Total points pie chart" />
   </section>
-
-  <Footer />
 </main>
 
 <style lang="scss">
@@ -79,11 +73,11 @@
   }
 
   .stats-section {
-    @apply w-4/5 mb-8;
+    @apply w-1/1 mb-8 <lg:(w-95/100);
   }
 
   .stats {
-    @apply grid grid-cols-3 justify-center my-8 w-1/1;
+    @apply grid grid-cols-3 justify-center my-8 w-1/1 <md:(grid-cols-1 gap-[2.5rem]);
   }
 
   .counter {
@@ -99,7 +93,7 @@
   }
 
   .events {
-    @apply grid grid-cols-2 justify-center w-4/5 mb-8;
+    @apply grid grid-cols-2 justify-center w-4/5 mb-8 <md:(grid-cols-1 gap-[4rem]);
 
     & > div {
       @apply flex flex-col items-center;
@@ -111,7 +105,7 @@
   }
 
   .images {
-    @apply w-4/5 mb-8 grid grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] place-items-center;
+    @apply w-4/5 mb-8 grid grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] place-items-center <md:(gap-8);
 
     img {
       @apply h-14rem rounded-1xl;

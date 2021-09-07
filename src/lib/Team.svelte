@@ -56,6 +56,10 @@
   .row-3,
   .row-4,
   .row-5 {
-    @apply my-16 <sm:(gap-8) grid grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] place-items-center;
+    @apply my-16 grid grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] place-items-center <md:(grid-cols-1 my-[0.0rem]);
+
+    & > div {
+      @apply <md:(my-6);
+    }
   }
 </style>

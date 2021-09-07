@@ -11,24 +11,22 @@
 
 <style lang="scss">
   .banner {
-    @apply w-4/5 m-8 grid grid-cols-2;
+    @apply w-1/1 m-8 grid grid-cols-2 <lg:(grid-cols-1);
   }
 
   .tagline {
     @apply flex justify-center flex-col h-1/1;
 
     h1 {
-      @apply h-max text-[6rem] leading-[1.1];
+      @apply h-max w-1/1 text-[6rem] <lg:(text-[5rem]) leading-[1.1];
     }
 
     h2 {
-      @apply text-[2.1rem] leading-relaxed;
-
-      color: hsla(var(--app-color-dark-hsl), 0.7);
+      @apply text-[2.1rem] <lg:(text-1.7rem mt-4) w-1/1 leading-relaxed text-[hsla(var(--app-color-dark-hsl),0.7)];
     }
   }
 
   .hero-image img {
-    @apply max-w-9/10;
+    @apply max-w-9/10 <lg:(hidden);
   }
 </style>

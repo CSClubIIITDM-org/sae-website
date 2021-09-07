@@ -1,17 +1,14 @@
 <script>
   import { fadeIn, fadeOut } from '$lib/fade';
-
   import Footer from '$lib/Footer.svelte';
   import HomeBanner from '$lib/HomeBanner.svelte';
   import Hr from '$lib/Hr.svelte';
-  import Nav from '$lib/Nav.svelte';
   import Sponsors from '$lib/Sponsors.svelte';
   import Team from '$lib/Team.svelte';
 </script>
 
 <main in:fadeIn out:fadeOut>
   <div id="home-link" />
-  <Nav />
 
   <HomeBanner />
 
@@ -65,13 +62,11 @@
   <div class="m-8">
     <Hr />
   </div>
-
-  <Footer />
 </main>
 
 <style lang="scss" windi:global>
   main {
-    @apply w-1/1 pt-32 flex items-center flex-col;
+    @apply w-4/5 <lg:(w-95/100) pt-32 flex items-center flex-col;
   }
 
   h2 {
@@ -79,11 +74,11 @@
   }
 
   .stats-section {
-    @apply w-4/5 mb-8;
+    @apply w-1/1 mb-8;
   }
 
   .stats {
-    @apply grid grid-cols-3 justify-center my-8 w-1/1;
+    @apply grid grid-cols-3 <lg:(grid-cols-1 gap-[2.5rem]) justify-center my-8 w-1/1;
   }
 
   .counter {
@@ -99,6 +94,6 @@
   }
 
   .team {
-    @apply w-4/5 mb-8;
+    @apply w-1/1 mb-8;
   }
 </style>

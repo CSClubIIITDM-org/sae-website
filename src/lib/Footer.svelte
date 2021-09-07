@@ -71,7 +71,7 @@
   }
 
   .location-info {
-    @apply grid grid-cols-2 w-4/5;
+    @apply grid grid-cols-2 w-1/1 <lg:(grid-cols-1 w-[95%]);
   }
 
   .address {
@@ -87,6 +87,6 @@
   }
 
   .map img {
-    @apply max-w-3/5 rounded-[0.5rem];
+    @apply max-w-3/5 rounded-[0.5rem] <md:(max-w-1/1);
   }
 </style>

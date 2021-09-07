@@ -21,7 +21,7 @@
     </p>
   </div>
 
-  <div class="buttons justify-evenly flex">
+  <div class="buttons justify-evenly flex <md:flex-col <md:items-center <md:justify-center">
     <button>Sponsorship Brochure</button>
     <button>Collaborate with us</button>
     <button>CrowdFunding</button>
@@ -51,7 +51,7 @@
 
 <style lang="scss">
   .sponsors-container {
-    @apply w-4/5;
+    @apply w-1/1;
   }
 
   h2 {
