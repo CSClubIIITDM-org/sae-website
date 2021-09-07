@@ -53,7 +53,7 @@
     <Team />
   </section>
 
-  <div class="m-8">
+  <div class="mt-2 mb-8">
     <Hr />
   </div>
 
@@ -94,6 +94,6 @@
   }
 
   .team {
-    @apply w-1/1 mb-8;
+    @apply w-1/1 mb-0;
   }
 </style>
