@@ -1,3 +1,7 @@
+<script>
+  import { lazy } from './lazy';
+</script>
+
 <footer>
   <section class="location-info">
     <div class="address">
@@ -59,7 +63,7 @@
     </div>
     <div class="map">
       <a href="https://goo.gl/maps/NZBSQfC8KD9aRJFr5">
-        <img src="/assets/institute-map.png" alt="Institute map" />
+        <img src="/assets/institute-map.png" alt="Institute map" use:lazy />
       </a>
     </div>
   </section>
