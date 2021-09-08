@@ -1,6 +1,5 @@
 <script>
   import { fadeIn, fadeOut } from '$lib/fade';
-  import Footer from '$lib/Footer.svelte';
   import HomeBanner from '$lib/HomeBanner.svelte';
   import Hr from '$lib/Hr.svelte';
   import Sponsors from '$lib/Sponsors.svelte';
